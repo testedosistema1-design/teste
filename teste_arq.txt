@@ -6,3 +6,5 @@
 6-seis
 7-sete
 8-oito
+9-nove
+10-dez
