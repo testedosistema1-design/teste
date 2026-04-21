@@ -1,0 +1,38 @@
+1776804371715	geckodriver	INFO	Listening on 127.0.0.1:56913
+1776804374772	mozrunner::runner	INFO	Running command: "C:\\Users\\TESTE_SISTEMA\\.cache\\selenium\\firefox\\win64\\150.0\\firefox.exe" "--marionette" "--remote-de ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TESTE_~1\\AppData\\Local\\Temp\\rust_mozprofilez1cjBK"
+Dynamically enable window occlusion 0
+1776804374987	Marionette	INFO	Marionette enabled
+1776804375051	Marionette	INFO	Listening on port 56921
+WebDriver BiDi listening on ws://127.0.0.1:56914
+Read port: 56921
+1776804375147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js, line 1603: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js, line 1603: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js, line 1603: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js, line 1603: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval, line 1603: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval, line 1603: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval, line 1603: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval line 1603 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval line 1603 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval line 1603 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval line 1603 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval line 1603 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval, line 1603: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval line 1603 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval line 1603 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval line 1603 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval line 1603 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval line 1603 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/aYchT8ZL_tW9UoaqSbCRCLMUu70HQPNZj4FxNa8KCn4.js line 2 > eval line 1603 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1776804386243	Marionette	INFO	Stopped listening on port 56921
+Dynamically enable window occlusion 1
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.11.9 on win32)" generated="2026-04-21T20:06:08.215197" rpa="false" schemaversion="5">
+<suite id="s1" name="Primeiro-Cenario" source="C:\teste\primeiro-cenario.robot">
+<test id="s1-t1" name="TC01-Escrever nome e sobrenome" line="55">
+<kw name="Abrir o navegador e acessar o site">
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>value=${SELENIUM_SPEED}</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2026-04-21T20:06:08.372137" elapsed="0.000000"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-21T20:06:08.372137" level="INFO">Opening browser 'chrome' to base url 'https://demoqa.com/automation-practice-form'.</msg>
+<arg>url=${URL}</arg>
+<arg>browser=${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-21T20:06:08.372137" elapsed="3.866397"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:08.372137" elapsed="3.866397"/>
+</kw>
+<kw name="Escrever o nome">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-21T20:06:12.238534" level="INFO">Typing text 'João' into text field 'id=firstName'.</msg>
+<arg>locator=${INPUT_FIRST_NAME}</arg>
+<arg>text=${NOME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-21T20:06:12.238534" elapsed="1.628223"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:12.238534" elapsed="1.628223"/>
+</kw>
+<kw name="Escrever o sobrenome">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-21T20:06:13.867776" level="INFO">Typing text 'Silva' into text field 'id=lastName'.</msg>
+<arg>locator=${INPUT_LAST_NAME}</arg>
+<arg>text=${SOBRENOME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-21T20:06:13.866757" elapsed="1.569139"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:13.866757" elapsed="1.569139"/>
+</kw>
+<kw name="Fechar Navegador">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-04-21T20:06:15.435896" elapsed="2.584726"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:15.435896" elapsed="2.584726"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:08.370128" elapsed="9.650494"/>
+</test>
+<test id="s1-t2" name="TC02-Escrever nome, e sobrenome e email" line="61">
+<kw name="Abrir o navegador e acessar o site">
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>value=${SELENIUM_SPEED}</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2026-04-21T20:06:18.020622" elapsed="0.000000"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-21T20:06:18.020622" level="INFO">Opening browser 'chrome' to base url 'https://demoqa.com/automation-practice-form'.</msg>
+<arg>url=${URL}</arg>
+<arg>browser=${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-21T20:06:18.020622" elapsed="4.207016"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:18.020622" elapsed="4.207016"/>
+</kw>
+<kw name="Escrever o nome">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-21T20:06:22.227638" level="INFO">Typing text 'João' into text field 'id=firstName'.</msg>
+<arg>locator=${INPUT_FIRST_NAME}</arg>
+<arg>text=${NOME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-21T20:06:22.227638" elapsed="1.658601"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:22.227638" elapsed="1.658601"/>
+</kw>
+<kw name="Escrever o sobrenome">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-21T20:06:23.886239" level="INFO">Typing text 'Silva' into text field 'id=lastName'.</msg>
+<arg>locator=${INPUT_LAST_NAME}</arg>
+<arg>text=${SOBRENOME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-21T20:06:23.886239" elapsed="1.552460"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:23.886239" elapsed="1.552460"/>
+</kw>
+<kw name="Escrever o email">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-21T20:06:25.438699" level="INFO">Typing text 'teste@teste.com' into text field 'id=userEmail'.</msg>
+<arg>locator=${INPUT_EMAIL}</arg>
+<arg>text=${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-21T20:06:25.438699" elapsed="1.577128"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:25.438699" elapsed="1.577128"/>
+</kw>
+<kw name="Fechar Navegador">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-04-21T20:06:27.015827" elapsed="2.583515"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:27.015827" elapsed="2.583515"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:18.020622" elapsed="11.578720"/>
+</test>
+<test id="s1-t3" name="TC03-Escrever nome, e sobrenome,email e telefone" line="68">
+<kw name="Abrir o navegador e acessar o site">
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>value=${SELENIUM_SPEED}</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2026-04-21T20:06:29.599342" elapsed="0.000000"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-21T20:06:29.599342" level="INFO">Opening browser 'chrome' to base url 'https://demoqa.com/automation-practice-form'.</msg>
+<arg>url=${URL}</arg>
+<arg>browser=${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-21T20:06:29.599342" elapsed="4.267262"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:29.599342" elapsed="4.267262"/>
+</kw>
+<kw name="Escrever o nome">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-21T20:06:33.866604" level="INFO">Typing text 'João' into text field 'id=firstName'.</msg>
+<arg>locator=${INPUT_FIRST_NAME}</arg>
+<arg>text=${NOME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-21T20:06:33.866604" elapsed="1.581176"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:33.866604" elapsed="1.581176"/>
+</kw>
+<kw name="Escrever o sobrenome">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-21T20:06:35.448136" level="INFO">Typing text 'Silva' into text field 'id=lastName'.</msg>
+<arg>locator=${INPUT_LAST_NAME}</arg>
+<arg>text=${SOBRENOME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-21T20:06:35.448136" elapsed="1.573478"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:35.448136" elapsed="1.573478"/>
+</kw>
+<kw name="Escrever o email">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-21T20:06:37.022641" level="INFO">Typing text 'teste@teste.com' into text field 'id=userEmail'.</msg>
+<arg>locator=${INPUT_EMAIL}</arg>
+<arg>text=${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-21T20:06:37.022641" elapsed="1.555529"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:37.021614" elapsed="1.556556"/>
+</kw>
+<kw name="Escrever o telefone">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-21T20:06:38.580189" level="INFO">Typing text '11974632553' into text field 'id=userNumber'.</msg>
+<arg>locator=${INPUT_PHONE_NUMBER}</arg>
+<arg>text=${TELEFONE}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-21T20:06:38.579194" elapsed="1.556415"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:38.579194" elapsed="1.556415"/>
+</kw>
+<kw name="Fechar Navegador">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-04-21T20:06:40.136627" elapsed="2.557026"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:40.135609" elapsed="2.558044"/>
+</kw>
+<status status="PASS" start="2026-04-21T20:06:29.599342" elapsed="13.094311"/>
+</test>
+<status status="PASS" start="2026-04-21T20:06:08.230898" elapsed="34.462755"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Primeiro-Cenario" id="s1" pass="3" fail="0" skip="0">Primeiro-Cenario</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

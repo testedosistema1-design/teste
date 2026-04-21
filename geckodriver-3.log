@@ -1,0 +1,16 @@
+1776804389536	geckodriver	INFO	Listening on 127.0.0.1:56991
+1776804392645	mozrunner::runner	INFO	Running command: "C:\\Users\\TESTE_SISTEMA\\.cache\\selenium\\firefox\\win64\\150.0\\firefox.exe" "--marionette" "--remote-de ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TESTE_~1\\AppData\\Local\\Temp\\rust_mozprofileWsAU6k"
+Dynamically enable window occlusion 0
+1776804392863	Marionette	INFO	Marionette enabled
+1776804392935	Marionette	INFO	Listening on port 57001
+WebDriver BiDi listening on ws://127.0.0.1:56992
+Read port: 57001
+1776804392982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+1776804406192	Marionette	INFO	Stopped listening on port 57001
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0), 587))

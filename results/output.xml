@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.11.9 on win32)" generated="2026-04-21T12:39:04.437323" rpa="false" schemaversion="5">
+<suite id="s1" name="Teste" source="C:\teste">
+<suite id="s1-s1" name="Estrutura" source="C:\teste\estrutura.robot">
+<test id="s1-s1-t1" name="Teste fake" line="15">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${variavel}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-04-21T12:39:04.644984" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2026-04-21T12:39:04.641432" elapsed="0.004557"/>
+</test>
+<doc>esse é o meu projeto</doc>
+<status status="PASS" start="2026-04-21T12:39:04.489172" elapsed="0.178577"/>
+</suite>
+<status status="PASS" start="2026-04-21T12:39:04.443351" elapsed="0.227821"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Teste" id="s1" pass="1" fail="0" skip="0">Teste</stat>
+<stat name="Estrutura" id="s1-s1" pass="1" fail="0" skip="0">Teste.Estrutura</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
